@@ -12,4 +12,11 @@ iconClose.addEventListener("click", function() {
     menu.classList.remove("menu-block");
         iconClose.classList.remove("block");
         iconMenu.classList.remove("hiden");
+});
+
+let like = document.querySelectorAll(".like");
+like.forEach((item) => {
+    item.addEventListener("click", function() {
+        item.classList.toggle("liked");
     })
+})

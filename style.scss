@@ -1089,6 +1089,7 @@
                     span {
                         font-size: 32px;
                         color: rgb(70, 67, 67);
+                        position: fixed;
                     }
                 }
                 .menu-block {
@@ -1193,7 +1194,7 @@
                 left: 50%;
                 top: 50%;
                 transform: translate(-50%, -50%);
-                width: 290px;
+                width: 250px;
             }
         }
     }

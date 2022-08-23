@@ -1027,6 +1027,7 @@
   .header .wrapper .header-nav .icon-close span {
     font-size: 32px;
     color: rgb(70, 67, 67);
+    position: fixed;
   }
   .header .wrapper .header-nav .menu-block {
     top: 0;
@@ -1110,7 +1111,7 @@
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    width: 290px;
+    width: 250px;
   }
 }
 @media (max-width: 549.98px) {

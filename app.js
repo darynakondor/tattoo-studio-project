@@ -3,7 +3,7 @@ const menu = document.querySelector(".menu");
 const iconClose = document.querySelector(".icon-close");
 iconMenu.addEventListener("click", function() {
     menu.classList.toggle("menu-block");
-    document.body.classList.toggle("overfl-hid");
+    document.body.classList.add("overfl-hid");
     iconMenu.classList.add("hiden");
     iconClose.classList.add("block");
 });
@@ -12,6 +12,7 @@ iconClose.addEventListener("click", function() {
     menu.classList.remove("menu-block");
         iconClose.classList.remove("block");
         iconMenu.classList.remove("hiden");
+        document.body.classList.remove("overfl-hid");
 });
 
 let like = document.querySelectorAll(".like");
@@ -31,7 +32,6 @@ images.forEach((item) => {
         document.querySelector(".popup-images img").src = item.getAttribute('src');
     })
 });
-
 
 closePopupImg.addEventListener("click", function() {
     popupImg.style.display = 'none';

@@ -110,10 +110,6 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-.main .img img {
-  cursor: -webkit-zoom-in;
-  cursor: zoom-in;
-}
 .main .img:hover .hover {
   display: block;
 }
@@ -126,15 +122,19 @@
 }
 .main .img .hover .block .zoom {
   background: url("./project-images/zoom.png") center no-repeat;
-  z-index: 5;
+  z-index: 500;
   width: 31px;
   height: 31px;
   grid-column: 2/4;
-  cursor: pointer;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
 }
 .main .img .hover .block .zoom:hover {
   -webkit-filter: invert(100%);
           filter: invert(100%);
+}
+.main .img .hover .block .zoom img {
+  opacity: 0;
 }
 .main .img .hover .block .link {
   background: url("./project-images/link.png") center no-repeat;

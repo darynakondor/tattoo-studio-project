@@ -21,7 +21,7 @@ like.forEach((item) => {
     })
 });
 
-let images = document.querySelectorAll(".img img");
+let images = document.querySelectorAll(".zoom img");
 let popupImg = document.querySelector(".popup-images");
 let closePopupImg = document.querySelector(".close-popup-image");
 

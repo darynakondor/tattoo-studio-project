@@ -97,9 +97,6 @@
         position: relative;
         display: flex;
         justify-content: center;
-        img {
-            cursor: zoom-in;
-        }
         &:hover .hover {
             display: block;
         }
@@ -110,14 +107,17 @@
                 display: grid;
                 .zoom {
                     background: url('./project-images/zoom.png') center no-repeat;
-                    z-index: 5;
+                    z-index: 500;
                     width: 31px;
                     height: 31px;
                     grid-column: 2 / 4;
-                    cursor: pointer;
+                    cursor: zoom-in;
                     &:hover {
                         filter: invert(100%);
-                    }  
+                    }
+                    img {
+                        opacity: 0;
+                    }
                 }
                 .link {
                     background: url('./project-images/link.png') center no-repeat;
@@ -512,7 +512,6 @@
     }
 }
 .footer {
-    
     background-color: #aeaeae;
     padding-top: 165px;
     padding-bottom: 65px;

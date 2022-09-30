@@ -173,14 +173,30 @@
   -webkit-filter: invert(100%);
           filter: invert(100%);
 }
-.main .single-slide {
+.main .slick-dots, .main .slick-arrow {
+  display: none !important;
+}
+.main .slider {
   position: relative;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 250px 0px;
-  background: url("./project-images/single-slide.png") center no-repeat;
+  margin-bottom: 0px !important;
+}
+.main .slider .slide-1 {
+  background: url("./project-images/slide-1.png") center no-repeat;
   background-size: cover;
+  padding: 250px 0px;
+}
+.main .slider .slide-2 {
+  background: url("./project-images/slide-2.jpg") center no-repeat;
+  background-size: cover;
+  padding: 250px 0px;
+}
+.main .slider .slide-3 {
+  background: url("./project-images/slide-3.jpg") right no-repeat;
+  background-size: cover;
+  padding: 250px 0px;
 }
 .main .about-us .wrapper-1 .about-us-title {
   background: url("./project-images/img-studio-bg.png") center no-repeat;

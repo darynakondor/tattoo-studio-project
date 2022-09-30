@@ -48,6 +48,10 @@ if (links.length > 0) {
         if (menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)) {
             const goToSection = document.querySelector(menuLink.dataset.goto);
             const goToSectionValue = goToSection.getBoundingClientRect().top + pageYOffset;
+            menu.classList.remove("menu-block");
+            iconClose.classList.remove("block");
+            iconMenu.classList.remove("hiden");
+            document.body.classList.remove("overfl-hid");
             window.scrollTo ({
                 top: goToSectionValue,
                 behavior: "smooth"
@@ -56,3 +60,13 @@ if (links.length > 0) {
         }
     }
 }
+
+$(".slider").slick({
+    autoplay:true,
+    dots: true,
+    infinite: true,
+    autoplaySpeed: 3000,
+    fade: true,
+    cssEase: 'linear'
+  
+})

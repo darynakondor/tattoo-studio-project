@@ -155,14 +155,30 @@
            }
         }
     }
-    .single-slide {
+    .slick-dots, .slick-arrow {
+        display: none !important;
+    }
+    .slider {
         position: relative;
         top: 0;
         left:0;
         width: 100%;
-        padding: 250px 0px;
-        background: url("./project-images/single-slide.png") center no-repeat;
-        background-size: cover;
+        margin-bottom: 0px !important;
+        .slide-1 {
+            background: url("./project-images/slide-1.png") center no-repeat;
+            background-size: cover;
+            padding: 250px 0px;
+        }
+        .slide-2 {
+            background: url("./project-images/slide-2.jpg") center no-repeat;
+            background-size: cover;
+            padding: 250px 0px;
+        }
+        .slide-3 {
+            background: url("./project-images/slide-3.jpg") right no-repeat;
+            background-size: cover;
+            padding: 250px 0px;
+        }
     }
     .about-us {
         .wrapper-1 {

@@ -225,13 +225,13 @@
   margin: 0 auto;
 }
 .main .about-us .wrapper-1 .about-us-text .content p {
-  font-size: 18px;
+  font-size: 19px;
   color: #1e1e1d;
   line-height: 24px;
   text-align: center;
 }
 .main .about-us .wrapper-1 .about-us-text .content p:last-child {
-  font-size: 16px;
+  font-size: 17px;
   text-align: left;
 }
 .main .about-us .wrapper-2 .studio-gallery .img:hover {
@@ -303,7 +303,7 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 19px;
 }
 .main .team .about-team .block .links {
   display: grid;
@@ -363,13 +363,13 @@
   text-transform: uppercase;
 }
 .main .team .wrapper-2 .newsletter .form div:first-child {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
-  line-height: 18px;
+  line-height: 22px;
 }
 .main .team .wrapper-2 .newsletter .form div:nth-child(2) {
-  font-size: 12px;
-  line-height: 12px;
+  font-size: 14px;
+  line-height: 16px;
   padding-bottom: 40px;
 }
 .main .team .wrapper-2 .newsletter .form .email {
@@ -525,7 +525,7 @@
 .main .contact-us .wrapper-2 .form input, .main .contact-us .wrapper-2 .form textarea {
   background-color: transparent;
   border: 2px solid #000000;
-  padding: 0px 15px;
+  padding: 15px;
 }
 .main .contact-us .wrapper-2 .form input::-webkit-input-placeholder, .main .contact-us .wrapper-2 .form textarea::-webkit-input-placeholder {
   text-transform: uppercase;
@@ -952,7 +952,7 @@
     padding: 0px 15px;
   }
 }
-@media (max-width: 819.98px) {
+@media (max-width: 820.98px) {
   .overfl-hid {
     overflow: hidden;
   }

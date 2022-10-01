@@ -194,7 +194,7 @@
   padding: 250px 0px;
 }
 .main .slider .slide-3 {
-  background: url("./project-images/slide-3.jpg") right no-repeat;
+  background: url("./project-images/slide-3.jpg") top no-repeat;
   background-size: cover;
   padding: 250px 0px;
 }
@@ -911,6 +911,9 @@
   }
 }
 @media (max-width: 991.98px) {
+  .main .slider .slide-3 {
+    background-position: right;
+  }
   .main .title {
     width: 290px;
   }
